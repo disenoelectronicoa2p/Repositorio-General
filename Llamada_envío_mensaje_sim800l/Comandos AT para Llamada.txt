@@ -1,0 +1,43 @@
+
+PARA LLAMAR-------------------------------
+
+------------------------------------------
+AT+CPIN? Comprobar si todo va bien con SIM 
+
+Retorna el Valor
+AT+CPIN?
++CPIN: READY
+OK
+------------------------------------------
+
+AT+COPS? Comprueba si se conecta a una Red
+
+Si se obtiene el siguiente valor devuelto, 
+se ha registrado para CHN-UNICOM 
+
+AT+COPS?
++COPS: 0,0,"CHN-UNICOM"
+OK
+------------------------------------------
+Compruebe si se puede hacer llamadas telefónicas 
+con el módulo SIM.
+
+AT+CCALR? 
+
+Si se obtiene el valor devuelto: 1, está listo. 
++CCALR: 1
+OK
+----------------------------------------------
+Si usted no puede hacer llamadas de teléfono con SIM, 
+se puede comprobar si se les ha prohibido todas las 
+llamadas entrantes. 
+
+AT+GSMBUSY=0
+
+Retorna el Valor
+ok
+------------------------------------------------
+ATD+57311XXXXXXX;       Lamar
+ATH;                    Colgar Llamada
+
+
