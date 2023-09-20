@@ -87,20 +87,20 @@
         Serial.println("Motor encendido");
         delay(1000);      
           
-//        Serial.write("AT+CMGF=1\r\n");
-//        delay(1000);
-// 
-//        //Enviar comando para un nuevos SMS al numero establecido
-//        Serial.write("AT+CMGS=\"+573135437865\"\r\n");
-//        delay(1000);
-//   
-//        //Enviar contenido del SMS
-//        Serial.write("Motor encendido");
-//        delay(1000);
-//   
-//        //Enviar Ctrl+Z 
-//        Serial.write((char)26);
-//        delay(1000);                                                                             
+       Serial.write("AT+CMGF=1\r\n");
+       delay(1000);
+
+       //Enviar comando para un nuevos SMS al numero establecido
+       Serial.write("AT+CMGS=\"+57313XXXXXXX\"\r\n");
+       delay(1000);
+  
+       //Enviar contenido del SMS
+       Serial.write("Motor encendido");
+       delay(1000);
+  
+       //Enviar Ctrl+Z 
+       Serial.write((char)26);
+       delay(1000);                                                                             
       }
 
     //-------------------------------------------------------------------
@@ -112,20 +112,20 @@
 
         delay(1000);      
           
-//        Serial.write("AT+CMGF=1\r\n");
-//        delay(1000);
-// 
-//        //Enviar comando para un nuevos SMS al numero establecido
-//        Serial.write("AT+CMGS=\"+573135437865\"\r\n");
-//        delay(1000);
-//   
-//        //Enviar contenido del SMS
-//        Serial.write("Motor apagado");
-//        delay(1000);
-//   
-//        //Enviar Ctrl+Z 
-//        Serial.write((char)26);
-//        delay(1000);          
+       Serial.write("AT+CMGF=1\r\n");
+       delay(1000);
+
+       //Enviar comando para un nuevos SMS al numero establecido
+       Serial.write("AT+CMGS=\"+57313XXXXXXX\"\r\n");
+       delay(1000);
+  
+       //Enviar contenido del SMS
+       Serial.write("Motor apagado");
+       delay(1000);
+  
+       //Enviar Ctrl+Z 
+       Serial.write((char)26);
+       delay(1000);          
       } 
    
    //-------------------------------------------------------------------
