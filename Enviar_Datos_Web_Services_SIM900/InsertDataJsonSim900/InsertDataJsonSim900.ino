@@ -28,7 +28,7 @@ void setup() {
   **Valida si el SIM900 se concecto correctamente a la red movil
   **Descomentar la siguiente linea de codigo "sendAtConectionRed()" si se requiere validar esta accion.
   **/
-  sendAtConectionRed(); 
+  //sendAtConectionRed(); 
 
   //Finalizar sesión HTTP
   enviarComandoAT("AT+HTTPTERM", "OK", 3000); 
