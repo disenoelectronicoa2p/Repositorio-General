@@ -2,9 +2,9 @@
 
         // Conexión a la base de datos
         $servername = "fdb1023.awardspace.net";   
-        $username = "3420962_sim800l";           
-        $password = "w{IhJJi36PNX/{yS";                 
-        $dbname = "3420962_sim800l";           
+        $username = "";           
+        $password = "";                 
+        $dbname = "";           
            
 
         //Se crea la conexion
