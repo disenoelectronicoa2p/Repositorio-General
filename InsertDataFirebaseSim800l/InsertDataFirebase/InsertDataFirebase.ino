@@ -33,7 +33,7 @@ void setup() {
   enviarComandoAT("AT+SAPBR=0,1", "OK", 3000);  
 
     /**
-  **Valida si el SIM900 se concecto correctamente a la red movil
+  **Valida si el SIM800L se concecto correctamente a la red movil
   **Descomentar la siguiente linea de codigo "sendAtConectionRed()" si se requiere validar esta accion.
   **/
   //sendAtConectionRed(); 
